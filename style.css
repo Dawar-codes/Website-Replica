@@ -1044,14 +1044,6 @@ body{
     width: 100%;
     cursor: pointer;
 }
-.ready-cards-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.ready-cards-img img{
-    width: 100%;
-}
 .ready-card-flex{
     display: flex;
     justify-content: center;
