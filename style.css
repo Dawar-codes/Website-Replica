@@ -507,7 +507,7 @@ body{
 .sc-point{
     display: flex;
     flex-direction: row;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
 }
 .sc-point img{
     background-color: #e8f6ff;
@@ -681,7 +681,7 @@ body{
 .dc-point{
     display: flex;
     flex-direction: row;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
 }
 .dc-point img{
     background-color: #e8f6ff;
