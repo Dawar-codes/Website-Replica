@@ -1052,6 +1052,111 @@ body{
 .ready-cards-img img{
     width: 100%;
 }
+.ready-card-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    color: white;
+}
+.ready-card.left{
+    height: 240px;
+    width: 275px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;    
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #af1414, #f38a7e);
+}
+.ready-card.center{
+    height: 280px;
+    width: 500px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #5675ea, #a1b2f8);
+}
+.ready-card.right{
+    height: 240px;
+    width: 275px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #7a1ec8, #e2aef7);
+}
+.ready-card{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;  
+}
+.rd-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+.rd-card1-head-img1{
+    margin-left: 0;
+    height: 60px;
+}
+.rd-card2-head-img1{
+    height: 60px;
+}
+.rd-card2-head-img2{
+    height: 70px;
+}
+.rd-card3-head-img1{
+    height: 50px;
+    margin-left: 180px;
+}
+.rd-card-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.rd-card-foot-holder{
+   
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.rd-card2-foot-flex{
+    display: flex;
+}
+.rd-card3-foot-flex{
+    display: flex;
+    margin-left: 150px;
+}
+.rd-chip{
+    height: 30px;
+    margin-right: 20px;
+}
+.rd-signals{
+    height: 30px;
+}
+.rd-card1-footer-strip{
+    height: 60px;
+    width: 100%;
+    margin-top: -60px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(to right, #751e37, #b53154);
+}
+.rd-card2-footer-strip{
+    height: 60px;
+    width: 100%;
+    margin-top: -40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to right, #2745a8, #5f83e9);
+}
+.rd-card3-footer-strip{
+    height: 60px;
+    width: 100%;
+    margin-top: -50px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to right, #8525c5, #9e4df3);
+}
+
+
 
 /* ------------------------------------Footer-------------------------------------------*/
 
