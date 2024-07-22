@@ -78,7 +78,8 @@ body{
     padding:5px;
 }
 .second-line{
-    font-size: 5.2rem;
+    display: flex;
+    font-size: 4.5rem;
     text-align: center;
     color: #2c4673; 
 }
@@ -104,7 +105,7 @@ body{
     color: white;
     border: none;
     border-radius: 20px;
-    height: 115px;
+    height: 6rem;
     width: 100%;
     cursor: pointer;
 }
@@ -115,7 +116,7 @@ body{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
     color: black;
     border-radius: 20px;
-    height: 115px;
+    height: 6rem;
     width: 100%;
     cursor: pointer;
 }
@@ -529,7 +530,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;   
-    height: 3vh;
     border-radius: 40px; 
     background-color: #41b7a3;
     color: white;
@@ -1044,12 +1044,22 @@ body{
     width: 100%;
     cursor: pointer;
 }
+.ready-cards-container{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
 .ready-card-flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
     color: white;
+}
+.ready-card{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    flex-shrink: 0;
 }
 .ready-card.left{
     height: 240px;
@@ -1073,11 +1083,7 @@ body{
     margin-top: 10px;
     background: linear-gradient(to bottom, #7a1ec8, #e2aef7);
 }
-.ready-card{
-    display: flex;
-    flex-direction: column;
-    gap: 70px;  
-}
+
 .rd-card-header{
     display: flex;
     justify-content: space-between;
@@ -1272,4 +1278,27 @@ body{
 }
 .ft-con3-con{
     font-size: 1.8rem;
+}
+
+@media (max-width: 600px) { /* for tablet */
+    .navbar {
+       padding: 28px;   
+    }
+    .logo {
+        height: 32px;
+        margin-right: 0;
+    }
+    .logo-title {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    /*---------*/
+    .first-line{
+        font-size: 1rem;
+        margin-left: 15px;
+        padding: 0;
+    }
+    .star{
+        height: 20px;
+    }
 }
