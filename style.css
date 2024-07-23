@@ -1280,7 +1280,9 @@ body{
     font-size: 1.8rem;
 }
 
-@media (max-width: 600px) { /* for tablet */
+
+/*@media (min-width: 800px) {  
+
     .navbar {
        padding: 28px;   
     }
@@ -1292,7 +1294,7 @@ body{
         font-size: 25px;
         margin-left: 10px;
     }
-    /*---------*/
+    
     .first-line{
         font-size: 1rem;
         margin-left: 15px;
@@ -1301,4 +1303,4 @@ body{
     .star{
         height: 20px;
     }
-}
+} */
